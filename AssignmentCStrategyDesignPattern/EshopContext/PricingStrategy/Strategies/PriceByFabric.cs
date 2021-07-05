@@ -1,6 +1,6 @@
 ﻿using AssignmentCStrategyDesignPattern.Models;
 
-namespace AssignmentCStrategyDesignPattern.PricingStrategy.Strategies
+namespace AssignmentCStrategyDesignPattern.EshopContext.PricingStrategy.Strategies
 {
     public class PriceByFabric : IProductPricing
     {

@@ -43,20 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PricingStrategy\PriceComputing.cs" />
-    <Compile Include="PricingStrategy\Strategies\PriceBySize.cs" />
-    <Compile Include="PricingStrategy\Strategies\PriceByFabric.cs" />
-    <Compile Include="PricingStrategy\Strategies\PriceByColor.cs" />
-    <Compile Include="PricingStrategy\Strategies\IProductPricing.cs" />
+    <Compile Include="EshopContext\PricingStrategy\IPriceComputing.cs" />
+    <Compile Include="EshopContext\PricingStrategy\Strategies\PriceBySize.cs" />
+    <Compile Include="EshopContext\PricingStrategy\Strategies\PriceByFabric.cs" />
+    <Compile Include="EshopContext\PricingStrategy\Strategies\PriceByColor.cs" />
+    <Compile Include="EshopContext\PricingStrategy\Strategies\IProductPricing.cs" />
+    <Compile Include="EshopContext\Shop.cs" />
     <Compile Include="Models\Color.cs" />
     <Compile Include="Models\Fabric.cs" />
-    <Compile Include="PaymentStrategy\Strategies\BankTransfer.cs" />
-    <Compile Include="PaymentStrategy\Strategies\Cash.cs" />
-    <Compile Include="PaymentStrategy\Strategies\CreditCard.cs" />
-    <Compile Include="PaymentStrategy\Strategies\IPaymentMethod.cs" />
+    <Compile Include="EshopContext\PaymentStrategy\Strategies\BankTransfer.cs" />
+    <Compile Include="EshopContext\PaymentStrategy\Strategies\Cash.cs" />
+    <Compile Include="EshopContext\PaymentStrategy\Strategies\CreditCard.cs" />
+    <Compile Include="EshopContext\PaymentStrategy\Strategies\IPaymentMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PaymentStrategy\Shop.cs" />
+    <Compile Include="EshopContext\PaymentStrategy\IShop.cs" />
     <Compile Include="Models\Tshirt.cs" />
     <Compile Include="Models\Size.cs" />
   </ItemGroup>

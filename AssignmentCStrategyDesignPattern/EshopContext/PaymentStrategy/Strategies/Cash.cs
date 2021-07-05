@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AssignmentCStrategyDesignPattern.PaymentStrategy.Strategies
+namespace AssignmentCStrategyDesignPattern.EshopContext.PaymentStrategy.Strategies
 {
     public class Cash : IPaymentMethod
     {

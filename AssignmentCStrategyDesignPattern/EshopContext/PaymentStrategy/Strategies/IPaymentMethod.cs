@@ -1,4 +1,4 @@
-﻿namespace AssignmentCStrategyDesignPattern.PaymentStrategy.Strategies
+﻿namespace AssignmentCStrategyDesignPattern.EshopContext.PaymentStrategy.Strategies
 {
     public interface IPaymentMethod
     {
