@@ -15,8 +15,8 @@ namespace AssignmentCStrategyDesignPattern.PaymentStrategy
 
         public void BuyProduct(decimal amount , decimal price)
         {
-            Thread.Sleep(3000);
             Console.WriteLine("Please Wait your order is processing.....");
+            Thread.Sleep(3000);
             _paymentMethod.Pay(amount, price);
         }
     }

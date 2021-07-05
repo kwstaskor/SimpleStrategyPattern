@@ -25,6 +25,7 @@ namespace AssignmentCStrategyDesignPattern
 
             Console.WriteLine($"T-shirt with {tshirt.Color} color, {tshirt.Fabric} fabric , {tshirt.Size} size costs : {tshirt.Price} ");
 
+            Console.WriteLine("---------------------------------------");
 
             //Payment Strategy
             var shop = new Shop();

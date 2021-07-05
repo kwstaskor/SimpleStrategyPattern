@@ -7,6 +7,7 @@ namespace AssignmentCStrategyDesignPattern.PricingStrategy.Strategies
         private decimal price;
         public decimal ComputeTshirtPrice(Tshirt tshirt)
         {
+            price += tshirt.Price;
             switch (tshirt.Size)
             {
                 case Size.Xs: return price + 10m;
